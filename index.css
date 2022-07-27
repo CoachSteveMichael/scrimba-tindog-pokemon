@@ -1,0 +1,104 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    font-weight: 1 rem;
+    font-family: 'Poppins', sans-serif;
+    
+}
+img:hover {
+    cursor: pointer;
+    
+}
+
+html {
+    background: cornsilk;
+    height: 1000px
+}
+body {
+    max-width: 550px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin-top: 1rem;
+    
+}
+#nav-container img {
+    max-height: 34px;
+    padding: 20px;
+    
+}
+
+#nav-container {
+    width: 550px;
+    height: 80px;
+    background: linear-gradient(180deg, yellow, white);
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+#profile {
+    background-image: ;
+    height: 600px;
+    width: 95%;
+    margin: 0 auto;
+    box-sizing: border-box;       
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-size: cover;
+     
+    
+}
+
+#like-hate img{
+    width: 26px;
+    
+    margin: 10px;
+    padding: 20px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#like-hate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    box-sizing: border-box;
+       
+}
+
+#heart:hover,
+#heart:focus {
+    background: #DBFFF4
+}
+
+#hate:hover,
+#hate:focus {
+    background: #FFE7EF
+}
+/*typography*/
+
+p, h1 {
+    margin: .5rem;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+p {
+    font-weight: 200;
+    font-size: 1rem;
+}
